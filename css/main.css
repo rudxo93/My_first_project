@@ -1,0 +1,136 @@
+.title_purpose {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title_purpose h3 {
+    margin: 10px;
+}
+
+.long_text {
+    width: 350px;
+    height: 25px;
+}
+
+.btn_purpose{
+    margin: 0px;
+    padding: 5px;
+}
+
+.btn_purpose .btn_set {
+    margin-right: 5px;
+}
+
+.btn_purpose .btn_del {
+    margin-right: 5px;
+}
+
+.menu {
+    width: 750px;
+    height: 480px;
+    margin: 0px 21px;
+    border: 2px solid black;
+    background-color: rgba(212, 212, 235, 0.664);
+}
+
+.title_todolist {
+    display: flex;
+    height: 30px;
+    border-bottom: 2px solid black;
+}
+
+.title_todolist h4 {
+    margin: 5px;
+}
+
+.btn_list {
+    display: flex;
+    margin: 5px 0px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.btn_list h4 {
+    margin: 0px;
+    font-weight: bold;
+}
+
+.list_typing {
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;   
+}
+
+.list_typing .btn_typing {
+    width: 200px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.list_typing .chk_typing {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.list_posting {
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;  
+}
+
+.list_posting .btn_posting {
+    width: 200px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.list_posting .chk_posting {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.title_add {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60px;
+}
+
+.title_add span {
+    color: black;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.title_add .list_add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_add .text_add {
+    width: 400px;
+    height: 30px;
+    margin-top: 3px;   
+}
+
+.title_add .btn_add {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+.progress {
+    width: 750px;
+    height: 52px;
+    margin: 4px 21px;
+    border: 2px solid black;
+}
+
